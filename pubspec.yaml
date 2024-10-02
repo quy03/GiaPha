@@ -1,0 +1,43 @@
+# tên dự án
+name: application_gia_pha
+# mô tả dự án
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  provider: ^6.1.2
+  table_calendar: ^3.1.2
+  lunar: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # fonts:
+  #   - family: Muli
+  #     fonts:
+  #       - asset: assets/fonts/muli/Muli.ttf
+  #       - asset: assets/fonts/muli/Muli-Bold.ttf
+  #         weight: 700
+
+  #       - asset: assets/fonts/muli/Muli-Light.ttf
+  #         weight: 300
